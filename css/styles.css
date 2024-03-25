@@ -1,0 +1,101 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+button {
+    font-size: 48px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.rock {
+    background-color: red;
+    border: 3px solid orange;
+    color: darkolivegreen;
+}
+
+.paper {
+    background-color: pink;
+    border: 3px solid plum;
+    color:dimgrey;
+}
+
+.scissors {
+    background-color: slateblue;
+    border: 3px solid lightseagreen;
+    color: yellow;
+}
+
+.board-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.shake-results {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: yellow;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.player-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: olive;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.player-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.announce-winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.announcement-text {
+    font-size: 54px;
+    font-weight: bolder;
+    color: crimson;
+}
